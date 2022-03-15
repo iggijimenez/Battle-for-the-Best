@@ -15,7 +15,8 @@
 		A4E1127A27DFFF3500EC923E /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1127927DFFF3500EC923E /* SignupView.swift */; };
 		A4E23EC227E0283C00EEA8A2 /* TabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E23EC127E0283C00EEA8A2 /* TabNavigationView.swift */; };
 		A4E23EC427E06ADA00EEA8A2 /* UserTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E23EC327E06AD900EEA8A2 /* UserTabView.swift */; };
-		A4E23EC627E0704700EEA8A2 /* EvenMoreNestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E23EC527E0704700EEA8A2 /* EvenMoreNestedView.swift */; };
+		A4E23EC927E0709B00EEA8A2 /* FindingOpponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E23EC827E0709B00EEA8A2 /* FindingOpponent.swift */; };
+		A4E23ECB27E078BD00EEA8A2 /* PlayingFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E23ECA27E078BD00EEA8A2 /* PlayingFriendView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,8 @@
 		A4E1127927DFFF3500EC923E /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		A4E23EC127E0283C00EEA8A2 /* TabNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationView.swift; sourceTree = "<group>"; };
 		A4E23EC327E06AD900EEA8A2 /* UserTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTabView.swift; sourceTree = "<group>"; };
-		A4E23EC527E0704700EEA8A2 /* EvenMoreNestedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenMoreNestedView.swift; sourceTree = "<group>"; };
+		A4E23EC827E0709B00EEA8A2 /* FindingOpponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingOpponent.swift; sourceTree = "<group>"; };
+		A4E23ECA27E078BD00EEA8A2 /* PlayingFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingFriendView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +86,6 @@
 				A4E23EC027E0281700EEA8A2 /* NestedViews */,
 				A4E1127727DFFF1900EC923E /* LoginView.swift */,
 				A4E1127927DFFF3500EC923E /* SignupView.swift */,
-				A4E23EC527E0704700EEA8A2 /* EvenMoreNestedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -92,10 +93,20 @@
 		A4E23EC027E0281700EEA8A2 /* NestedViews */ = {
 			isa = PBXGroup;
 			children = (
+				A4E23EC727E0708000EEA8A2 /* MoreNestedView */,
 				A4E23EC127E0283C00EEA8A2 /* TabNavigationView.swift */,
 				A4E23EC327E06AD900EEA8A2 /* UserTabView.swift */,
 			);
 			path = NestedViews;
+			sourceTree = "<group>";
+		};
+		A4E23EC727E0708000EEA8A2 /* MoreNestedView */ = {
+			isa = PBXGroup;
+			children = (
+				A4E23EC827E0709B00EEA8A2 /* FindingOpponent.swift */,
+				A4E23ECA27E078BD00EEA8A2 /* PlayingFriendView.swift */,
+			);
+			path = MoreNestedView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,8 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4E23EC227E0283C00EEA8A2 /* TabNavigationView.swift in Sources */,
-				A4E23EC627E0704700EEA8A2 /* EvenMoreNestedView.swift in Sources */,
+				A4E23ECB27E078BD00EEA8A2 /* PlayingFriendView.swift in Sources */,
 				A4E1127A27DFFF3500EC923E /* SignupView.swift in Sources */,
+				A4E23EC927E0709B00EEA8A2 /* FindingOpponent.swift in Sources */,
 				A4E1126927DFDAB400EC923E /* ContentView.swift in Sources */,
 				A4E1127827DFFF1900EC923E /* LoginView.swift in Sources */,
 				A4E1126727DFDAB400EC923E /* BallUpApp.swift in Sources */,

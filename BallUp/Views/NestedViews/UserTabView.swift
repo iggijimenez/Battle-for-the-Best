@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct UserTabView: View {
-    @State var showLogin = false
+    @State var showOpp = false
+    @State var showFriend = false
     
     var body: some View {
         
@@ -40,7 +41,7 @@ struct UserTabView: View {
                         .foregroundColor(Color.white)
                     
                     
-                    Button(action: { showLogin = true }) {
+                    Button(action: { showOpp = true }) {
                         Text("Find Opponent")
                     }
                     .font(.system(size: 25))
@@ -51,11 +52,11 @@ struct UserTabView: View {
                     .foregroundColor(Color.white)
                     .frame(maxHeight: .infinity, alignment: .bottom)
                     
-                    .fullScreenCover(isPresented: $showLogin) {
-                        TabNavigationView()
+                    .fullScreenCover(isPresented: $showOpp) {
+                        FindingOpponent()
                     }
                     
-                    Button(action: { showLogin = true }) {
+                    Button(action: { showFriend = true }) {
                         Text("Play Friend")
                     }
                     .font(.system(size: 25))
@@ -67,8 +68,8 @@ struct UserTabView: View {
                     .frame(maxHeight: .infinity, alignment: .bottom)
                     .padding(.bottom, 100)
                     
-                    .fullScreenCover(isPresented: $showLogin) {
-                        TabNavigationView()
+                    .fullScreenCover(isPresented: $showFriend) {
+                        PlayingFriendView()
                     }
 
                     
