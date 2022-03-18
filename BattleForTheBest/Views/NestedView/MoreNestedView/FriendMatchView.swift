@@ -11,7 +11,6 @@ struct FriendMatchView: View {
     @State var playedUserScore: String = ""
     @State var userScore: String = ""
     @State var donePlayed: Bool = false
-    @ObservedObject var input = NumberOnly()
     
     var body: some View {
         NavigationView {

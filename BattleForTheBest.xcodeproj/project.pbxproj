@@ -7,42 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4B0175927E2A61F00BAC6B3 /* FriendMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0175827E2A61F00BAC6B3 /* FriendMatchView.swift */; };
-		A4B0175C27E2A9B900BAC6B3 /* NumberOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0175B27E2A9B900BAC6B3 /* NumberOnly.swift */; };
-		A4B0175E27E2B8E200BAC6B3 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0175D27E2B8E200BAC6B3 /* LeaderboardView.swift */; };
-		A4BA7C4127E44C8F00212EC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4BA7C4027E44C8F00212EC2 /* GoogleService-Info.plist */; };
-		A4E1126727DFDAB400EC923E /* BallUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1126627DFDAB400EC923E /* BallUpApp.swift */; };
-		A4E1126927DFDAB400EC923E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1126827DFDAB400EC923E /* ContentView.swift */; };
-		A4E1126B27DFDAB900EC923E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E1126A27DFDAB900EC923E /* Assets.xcassets */; };
-		A4E1126E27DFDAB900EC923E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E1126D27DFDAB900EC923E /* Preview Assets.xcassets */; };
-		A4E1127827DFFF1900EC923E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1127727DFFF1900EC923E /* LoginView.swift */; };
-		A4E1127A27DFFF3500EC923E /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1127927DFFF3500EC923E /* SignupView.swift */; };
-		A4E23EC227E0283C00EEA8A2 /* TabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E23EC127E0283C00EEA8A2 /* TabNavigationView.swift */; };
-		A4E23EC427E06ADA00EEA8A2 /* UserTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E23EC327E06AD900EEA8A2 /* UserTabView.swift */; };
-		A4E23EC927E0709B00EEA8A2 /* FindingOpponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E23EC827E0709B00EEA8A2 /* FindingOpponent.swift */; };
-		A4E23ECB27E078BD00EEA8A2 /* PlayingFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E23ECA27E078BD00EEA8A2 /* PlayingFriendView.swift */; };
+		A4BA7C5627E4534E00212EC2 /* BattleForTheBestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BA7C5527E4534E00212EC2 /* BattleForTheBestApp.swift */; };
+		A4BA7C5827E4534E00212EC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BA7C5727E4534E00212EC2 /* ContentView.swift */; };
+		A4BA7C5A27E4534F00212EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BA7C5927E4534F00212EC2 /* Assets.xcassets */; };
+		A4BA7C5D27E4534F00212EC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BA7C5C27E4534F00212EC2 /* Preview Assets.xcassets */; };
+		A4BA7C6627E454CC00212EC2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BA7C6527E454CC00212EC2 /* LoginView.swift */; };
+		A4BA7C6827E454F500212EC2 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BA7C6727E454F500212EC2 /* SignupView.swift */; };
+		A4BA7C6B27E4552300212EC2 /* LeadboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BA7C6A27E4552300212EC2 /* LeadboardView.swift */; };
+		A4BA7C6D27E4554C00212EC2 /* TabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BA7C6C27E4554C00212EC2 /* TabNavigationView.swift */; };
+		A4BA7C6F27E4556600212EC2 /* UserTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BA7C6E27E4556600212EC2 /* UserTabView.swift */; };
+		A4BA7C7227E4559300212EC2 /* FindingOpponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BA7C7127E4559300212EC2 /* FindingOpponent.swift */; };
+		A4BA7C7427E455BB00212EC2 /* FriendMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BA7C7327E455BB00212EC2 /* FriendMatchView.swift */; };
+		A4BA7C7627E455DC00212EC2 /* PlayingFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BA7C7527E455DC00212EC2 /* PlayingFriendView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A4B0175827E2A61F00BAC6B3 /* FriendMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendMatchView.swift; sourceTree = "<group>"; };
-		A4B0175B27E2A9B900BAC6B3 /* NumberOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOnly.swift; sourceTree = "<group>"; };
-		A4B0175D27E2B8E200BAC6B3 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
-		A4BA7C4027E44C8F00212EC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		A4E1126327DFDAB400EC923E /* BallUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4E1126627DFDAB400EC923E /* BallUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallUpApp.swift; sourceTree = "<group>"; };
-		A4E1126827DFDAB400EC923E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A4E1126A27DFDAB900EC923E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A4E1126D27DFDAB900EC923E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A4E1127727DFFF1900EC923E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		A4E1127927DFFF3500EC923E /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
-		A4E23EC127E0283C00EEA8A2 /* TabNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationView.swift; sourceTree = "<group>"; };
-		A4E23EC327E06AD900EEA8A2 /* UserTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTabView.swift; sourceTree = "<group>"; };
-		A4E23EC827E0709B00EEA8A2 /* FindingOpponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingOpponent.swift; sourceTree = "<group>"; };
-		A4E23ECA27E078BD00EEA8A2 /* PlayingFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingFriendView.swift; sourceTree = "<group>"; };
+		A4BA7C5227E4534E00212EC2 /* BattleForTheBest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleForTheBest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BA7C5527E4534E00212EC2 /* BattleForTheBestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleForTheBestApp.swift; sourceTree = "<group>"; };
+		A4BA7C5727E4534E00212EC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4BA7C5927E4534F00212EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4BA7C5C27E4534F00212EC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4BA7C6527E454CC00212EC2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A4BA7C6727E454F500212EC2 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		A4BA7C6A27E4552300212EC2 /* LeadboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadboardView.swift; sourceTree = "<group>"; };
+		A4BA7C6C27E4554C00212EC2 /* TabNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationView.swift; sourceTree = "<group>"; };
+		A4BA7C6E27E4556600212EC2 /* UserTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTabView.swift; sourceTree = "<group>"; };
+		A4BA7C7127E4559300212EC2 /* FindingOpponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingOpponent.swift; sourceTree = "<group>"; };
+		A4BA7C7327E455BB00212EC2 /* FriendMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendMatchView.swift; sourceTree = "<group>"; };
+		A4BA7C7527E455DC00212EC2 /* PlayingFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingFriendView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A4E1126027DFDAB400EC923E /* Frameworks */ = {
+		A4BA7C4F27E4534E00212EC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,79 +48,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A4B0175A27E2A99500BAC6B3 /* Model */ = {
+		A4BA7C4927E4534D00212EC2 = {
 			isa = PBXGroup;
 			children = (
-				A4B0175B27E2A9B900BAC6B3 /* NumberOnly.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A4E1125A27DFDAB400EC923E = {
-			isa = PBXGroup;
-			children = (
-				A4E1126527DFDAB400EC923E /* BallUp */,
-				A4E1126427DFDAB400EC923E /* Products */,
+				A4BA7C5427E4534E00212EC2 /* BattleForTheBest */,
+				A4BA7C5327E4534E00212EC2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A4E1126427DFDAB400EC923E /* Products */ = {
+		A4BA7C5327E4534E00212EC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4E1126327DFDAB400EC923E /* BallUp.app */,
+				A4BA7C5227E4534E00212EC2 /* BattleForTheBest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4E1126527DFDAB400EC923E /* BallUp */ = {
+		A4BA7C5427E4534E00212EC2 /* BattleForTheBest */ = {
 			isa = PBXGroup;
 			children = (
-				A4BA7C4027E44C8F00212EC2 /* GoogleService-Info.plist */,
-				A4B0175A27E2A99500BAC6B3 /* Model */,
-				A4E1127427DFDF0600EC923E /* Views */,
-				A4E1126627DFDAB400EC923E /* BallUpApp.swift */,
-				A4E1126827DFDAB400EC923E /* ContentView.swift */,
-				A4E1126A27DFDAB900EC923E /* Assets.xcassets */,
-				A4E1126C27DFDAB900EC923E /* Preview Content */,
+				A4BA7C6427E454BA00212EC2 /* Views */,
+				A4BA7C6327E4543800212EC2 /* Model */,
+				A4BA7C5527E4534E00212EC2 /* BattleForTheBestApp.swift */,
+				A4BA7C5727E4534E00212EC2 /* ContentView.swift */,
+				A4BA7C5927E4534F00212EC2 /* Assets.xcassets */,
+				A4BA7C5B27E4534F00212EC2 /* Preview Content */,
 			);
-			path = BallUp;
+			path = BattleForTheBest;
 			sourceTree = "<group>";
 		};
-		A4E1126C27DFDAB900EC923E /* Preview Content */ = {
+		A4BA7C5B27E4534F00212EC2 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A4E1126D27DFDAB900EC923E /* Preview Assets.xcassets */,
+				A4BA7C5C27E4534F00212EC2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A4E1127427DFDF0600EC923E /* Views */ = {
+		A4BA7C6327E4543800212EC2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A4E23EC027E0281700EEA8A2 /* NestedViews */,
-				A4E1127727DFFF1900EC923E /* LoginView.swift */,
-				A4E1127927DFFF3500EC923E /* SignupView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4BA7C6427E454BA00212EC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4BA7C6927E4551000212EC2 /* NestedView */,
+				A4BA7C6527E454CC00212EC2 /* LoginView.swift */,
+				A4BA7C6727E454F500212EC2 /* SignupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		A4E23EC027E0281700EEA8A2 /* NestedViews */ = {
+		A4BA7C6927E4551000212EC2 /* NestedView */ = {
 			isa = PBXGroup;
 			children = (
-				A4E23EC727E0708000EEA8A2 /* MoreNestedView */,
-				A4E23EC127E0283C00EEA8A2 /* TabNavigationView.swift */,
-				A4B0175D27E2B8E200BAC6B3 /* LeaderboardView.swift */,
-				A4E23EC327E06AD900EEA8A2 /* UserTabView.swift */,
+				A4BA7C7027E4557A00212EC2 /* MoreNestedView */,
+				A4BA7C6A27E4552300212EC2 /* LeadboardView.swift */,
+				A4BA7C6C27E4554C00212EC2 /* TabNavigationView.swift */,
+				A4BA7C6E27E4556600212EC2 /* UserTabView.swift */,
 			);
-			path = NestedViews;
+			path = NestedView;
 			sourceTree = "<group>";
 		};
-		A4E23EC727E0708000EEA8A2 /* MoreNestedView */ = {
+		A4BA7C7027E4557A00212EC2 /* MoreNestedView */ = {
 			isa = PBXGroup;
 			children = (
-				A4E23EC827E0709B00EEA8A2 /* FindingOpponent.swift */,
-				A4E23ECA27E078BD00EEA8A2 /* PlayingFriendView.swift */,
-				A4B0175827E2A61F00BAC6B3 /* FriendMatchView.swift */,
+				A4BA7C7127E4559300212EC2 /* FindingOpponent.swift */,
+				A4BA7C7327E455BB00212EC2 /* FriendMatchView.swift */,
+				A4BA7C7527E455DC00212EC2 /* PlayingFriendView.swift */,
 			);
 			path = MoreNestedView;
 			sourceTree = "<group>";
@@ -132,39 +126,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4E1126227DFDAB400EC923E /* BallUp */ = {
+		A4BA7C5127E4534E00212EC2 /* BattleForTheBest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4E1127127DFDAB900EC923E /* Build configuration list for PBXNativeTarget "BallUp" */;
+			buildConfigurationList = A4BA7C6027E4534F00212EC2 /* Build configuration list for PBXNativeTarget "BattleForTheBest" */;
 			buildPhases = (
-				A4E1125F27DFDAB400EC923E /* Sources */,
-				A4E1126027DFDAB400EC923E /* Frameworks */,
-				A4E1126127DFDAB400EC923E /* Resources */,
+				A4BA7C4E27E4534E00212EC2 /* Sources */,
+				A4BA7C4F27E4534E00212EC2 /* Frameworks */,
+				A4BA7C5027E4534E00212EC2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BallUp;
-			productName = BallUp;
-			productReference = A4E1126327DFDAB400EC923E /* BallUp.app */;
+			name = BattleForTheBest;
+			productName = BattleForTheBest;
+			productReference = A4BA7C5227E4534E00212EC2 /* BattleForTheBest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A4E1125B27DFDAB400EC923E /* Project object */ = {
+		A4BA7C4A27E4534D00212EC2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					A4E1126227DFDAB400EC923E = {
+					A4BA7C5127E4534E00212EC2 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = A4E1125E27DFDAB400EC923E /* Build configuration list for PBXProject "BallUp" */;
+			buildConfigurationList = A4BA7C4D27E4534D00212EC2 /* Build configuration list for PBXProject "BattleForTheBest" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -172,52 +166,50 @@
 				en,
 				Base,
 			);
-			mainGroup = A4E1125A27DFDAB400EC923E;
-			productRefGroup = A4E1126427DFDAB400EC923E /* Products */;
+			mainGroup = A4BA7C4927E4534D00212EC2;
+			productRefGroup = A4BA7C5327E4534E00212EC2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4E1126227DFDAB400EC923E /* BallUp */,
+				A4BA7C5127E4534E00212EC2 /* BattleForTheBest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A4E1126127DFDAB400EC923E /* Resources */ = {
+		A4BA7C5027E4534E00212EC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E1126E27DFDAB900EC923E /* Preview Assets.xcassets in Resources */,
-				A4E1126B27DFDAB900EC923E /* Assets.xcassets in Resources */,
-				A4BA7C4127E44C8F00212EC2 /* GoogleService-Info.plist in Resources */,
+				A4BA7C5D27E4534F00212EC2 /* Preview Assets.xcassets in Resources */,
+				A4BA7C5A27E4534F00212EC2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A4E1125F27DFDAB400EC923E /* Sources */ = {
+		A4BA7C4E27E4534E00212EC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E23EC227E0283C00EEA8A2 /* TabNavigationView.swift in Sources */,
-				A4E23ECB27E078BD00EEA8A2 /* PlayingFriendView.swift in Sources */,
-				A4B0175C27E2A9B900BAC6B3 /* NumberOnly.swift in Sources */,
-				A4E1127A27DFFF3500EC923E /* SignupView.swift in Sources */,
-				A4E23EC927E0709B00EEA8A2 /* FindingOpponent.swift in Sources */,
-				A4B0175927E2A61F00BAC6B3 /* FriendMatchView.swift in Sources */,
-				A4E1126927DFDAB400EC923E /* ContentView.swift in Sources */,
-				A4B0175E27E2B8E200BAC6B3 /* LeaderboardView.swift in Sources */,
-				A4E1127827DFFF1900EC923E /* LoginView.swift in Sources */,
-				A4E1126727DFDAB400EC923E /* BallUpApp.swift in Sources */,
-				A4E23EC427E06ADA00EEA8A2 /* UserTabView.swift in Sources */,
+				A4BA7C6827E454F500212EC2 /* SignupView.swift in Sources */,
+				A4BA7C6627E454CC00212EC2 /* LoginView.swift in Sources */,
+				A4BA7C7227E4559300212EC2 /* FindingOpponent.swift in Sources */,
+				A4BA7C6D27E4554C00212EC2 /* TabNavigationView.swift in Sources */,
+				A4BA7C7427E455BB00212EC2 /* FriendMatchView.swift in Sources */,
+				A4BA7C7627E455DC00212EC2 /* PlayingFriendView.swift in Sources */,
+				A4BA7C5827E4534E00212EC2 /* ContentView.swift in Sources */,
+				A4BA7C6F27E4556600212EC2 /* UserTabView.swift in Sources */,
+				A4BA7C5627E4534E00212EC2 /* BattleForTheBestApp.swift in Sources */,
+				A4BA7C6B27E4552300212EC2 /* LeadboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A4E1126F27DFDAB900EC923E /* Debug */ = {
+		A4BA7C5E27E4534F00212EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		A4E1127027DFDAB900EC923E /* Release */ = {
+		A4BA7C5F27E4534F00212EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,14 +325,14 @@
 			};
 			name = Release;
 		};
-		A4E1127227DFDAB900EC923E /* Debug */ = {
+		A4BA7C6127E4534F00212EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BallUp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BattleForTheBest/Preview Content\"";
 				DEVELOPMENT_TEAM = AK2WT6GG67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -354,8 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "iggi-jimenez.BallUp";
+				PRODUCT_BUNDLE_IDENTIFIER = "iggi-jimenez.BattleForTheBest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -363,14 +354,14 @@
 			};
 			name = Debug;
 		};
-		A4E1127327DFDAB900EC923E /* Release */ = {
+		A4BA7C6227E4534F00212EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BallUp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BattleForTheBest/Preview Content\"";
 				DEVELOPMENT_TEAM = AK2WT6GG67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -384,8 +375,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "iggi-jimenez.BallUp";
+				PRODUCT_BUNDLE_IDENTIFIER = "iggi-jimenez.BattleForTheBest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -396,25 +386,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4E1125E27DFDAB400EC923E /* Build configuration list for PBXProject "BallUp" */ = {
+		A4BA7C4D27E4534D00212EC2 /* Build configuration list for PBXProject "BattleForTheBest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4E1126F27DFDAB900EC923E /* Debug */,
-				A4E1127027DFDAB900EC923E /* Release */,
+				A4BA7C5E27E4534F00212EC2 /* Debug */,
+				A4BA7C5F27E4534F00212EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4E1127127DFDAB900EC923E /* Build configuration list for PBXNativeTarget "BallUp" */ = {
+		A4BA7C6027E4534F00212EC2 /* Build configuration list for PBXNativeTarget "BattleForTheBest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4E1127227DFDAB900EC923E /* Debug */,
-				A4E1127327DFDAB900EC923E /* Release */,
+				A4BA7C6127E4534F00212EC2 /* Debug */,
+				A4BA7C6227E4534F00212EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A4E1125B27DFDAB400EC923E /* Project object */;
+	rootObject = A4BA7C4A27E4534D00212EC2 /* Project object */;
 }
