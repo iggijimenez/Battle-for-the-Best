@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PlayingFriendView: View {
     @State private var friendsUUID: String = ""
+    @State var doneSearch = false
     
     var body: some View {
         ZStack {
@@ -16,10 +17,29 @@ struct PlayingFriendView: View {
             VStack{
                 Text("Enter Your Friends Unique ID")
                     .fontWeight(.semibold)
+                    .padding(.top, 200)
+                    .foregroundColor(Color.orange)
                 TextField("UUID", text: $friendsUUID)
                     .padding()
                     .frame(width: 300, height: 50, alignment: .center)
                     .background(Color.gray)
+                
+                Button(action: { doneSearch = true }) {
+                    Text("Done")
+                }
+                .font(.system(size: 25))
+                .padding()
+                .frame(width: 200, height: 50)
+                .background(Color.orange)
+                .cornerRadius(15)
+                .foregroundColor(Color.white)
+                .frame(maxHeight: .infinity, alignment: .bottom)
+                .padding(.bottom, 300)
+                
+                .fullScreenCover(isPresented: $doneSearch) {
+                    FriendMatchView()
+                }
+                
             }
         }
         

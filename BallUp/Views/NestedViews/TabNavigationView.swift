@@ -15,12 +15,11 @@ struct TabNavigationView: View {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
-         
-            Text("Bookmark Tab")
-                .font(.system(size: 30, weight: .bold, design: .rounded))
+            
+            LeaderboardView()
                 .tabItem {
                     Image(systemName: "bookmark.circle.fill")
-                    Text("Bookmark")
+                    Text("Leaderboard")
                 }
         }
     }
